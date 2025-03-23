@@ -260,17 +260,16 @@
     </div>
 
     <script>
-        // Handle "Di Maafin" Button click
-        document.getElementById('maafinBtn').addEventListener('click', function() {
-            // Play the audio when the button is clicked
-            var audio = document.getElementById('linkmp3');
-            audio.play(); // This will play the audio
+       // Handle "Di Maafin" Button click
+document.getElementById('maafinBtn').addEventListener('click', function() {
+    // Play the audio when the button is clicked
+    var audio = document.getElementById('linkmp3');
+    // audio.play(); // Hapus atau komentar bagian ini
 
-            // Hide the container and buttons
-            document.getElementById('container').style.display = 'none';
-            document.getElementById('popup').style.display = 'block'; // Show popup
-        });
-
+    // Hide the container and buttons
+    document.getElementById('container').style.display = 'none';
+    document.getElementById('popup').style.display = 'block'; // Show popup
+});
         // Handle "Gak Dimaafin" Button click
         document.getElementById('gakDimaafinBtn').addEventListener('click', function() {
             // Hide the container and show the warning popup
